@@ -1,11 +1,6 @@
 div#profile-image{
 	float: right;
 }
-
-div#profile-image img{
-	border-radius: 10px 10px 10px 10px;
-}
-
 @font-face{
 	font-family: robotoLight;
 	src: url('../font/Roboto-Light.ttf');
@@ -28,4 +23,3 @@ h2{
 h3{
 	font-family:robotoBold;
 }
-
