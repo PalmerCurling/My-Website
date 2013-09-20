@@ -34,3 +34,12 @@ h3{
 	font-family:robotoBold;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
