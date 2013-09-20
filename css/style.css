@@ -10,21 +10,26 @@ div#profile-image img{
 	font-family: robotoLight;
 	src: url('../font/Roboto-Light.ttf');
 }
+
 @font-face{
 	font-family: robotoThin;
 	src: url('../font/Roboto-Thin.ttf');
 }
+
 @font-face{
 	font-family: robotoBold;
 	src: url('../font/Roboto-Bold.ttf');
 }
+
 body{
 	font-family:robotoThin;
 	font-weight:bold;
 }
+
 h2{
 	font-style:italic;
 }
+
 h3{
 	font-family:robotoBold;
 }
