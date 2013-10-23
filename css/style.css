@@ -24,8 +24,8 @@ div#profile-image img{
 body{
 	font-family:robotoThin;
 	font-weight:bold;
-	background-color: black;
-	color:#041E42;
+	background-color: #797979;
+	color:#B86125;
 }
 
 h2{
@@ -36,7 +36,7 @@ h2{
 h3{
 	font-family:robotoBold;
 	font-style:italic;
-	color:#B86125;
+	color:#041E42;
 	text-decoration:underline;
 }
 
@@ -48,4 +48,21 @@ a{
 a:hover{
 	text-decoration: underline;
 	color:#5C88DA;
+}
+
+nav#nav-bar{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px
+}
+
+nav a{
+	width: 30px;
+}
+
+nav li{
+	font-size: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	float: right;
 }
