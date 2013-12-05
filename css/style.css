@@ -51,11 +51,6 @@ a:hover{
 	color:#5C88DA;
 }
 
-nav#nav-bar{
-	margin-left: auto;
-	margin-right: auto;
-}
-
-nav li{
-
+nav#nav-bar a:hover{
+background-color: transparent;
 }
