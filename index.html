@@ -1,115 +1,93 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
-<head>
-<link href="./css/bootstrap.min.css" rel="stylesheet">
-<link href="./css/bootstrap-theme.min.css" rel="stylesheet">
-<link href="./css/style.css" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<nav id="nav-bar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role=navigation> 
-	<div class"navbar-collapse collapse">
-		<ul class="nav navbar-left">
-			<li class="navbar-nav">
-			<a href=#>Home</a>
-			</li>
-
-			<li class="navbar-nav">
-			<a href=#projects>Projects</a>
-			</li>
-
-			<li class="navbar-nav">
-			<a href=#about>About Me</a>
-			</li>
-
-			<li class="navbar-nav">
-			<a href=#academics>Academics</a>
-			</li>
-
-			<li class="navbar-nav">
-			<a href=#extracirriculars>Extracirriculars</a>
-			</li>
-
-			<li class="navbar-nav">
-			<a href=#assortedinterests>Assorted Interests</a>
-			</li>
-		</ul>
-		<ul class="nav navbar-right">
-			<li class="navbar-nav">
-			<a href="mailto:palmercurling@android.net" target="_blank">Email Me!</a>
-			</li>
-		</ul>
-	</div>
-</nav>
-
-</head>
-
-<body>
-<h1 id="pagetop">
-	Eric Meadow
-	<div id="profile-image">
-		<img src="./img/me.jpg"/>
-		<br/>
-		<a href="https://dl.dropbox.com/u/16194318/Resume.pdf" target="_blank">Resume for download</a>
-	</div>
-</h1>
-
-<h2>Code under construction, because no job worth it is ever done.</h2>
-<br/>
-
-<div id="projects">
-	<h3>Projects</h3>
-	<p> <a href="https://github.com/PalmerCurling" target="_blank">Check out Github for my projects here!</a></p>
-	<br/>
-</div>
-
-<div id="about">
-	<h3>About Me</h3>
-	<p>Sophomore at Rutgers University.</p>
-	<p>Student of the world.</p>
-	<p>Hockey fanatic.</p>
-	<p>Programming disciple.</p>
-	<br/>
-</div>
-
-<div id="academics">
-	<h3>Academics</h3>
-	<ul>
-		<li>Calculus 1 151</li>
-		<li>Calculus 2 152</li>
-		<li>CS 111 Intro to Java</li>
-		<li>CS 112 Data Structures</li>
-		<li>Current GPA: 3.104</li>
-	</ul>
-	<br/>
-</div>
-
-<div id="extracirriculars">
-	<h3>Extracirriculars</h3>
-	<ul>
-		<li>RU Mobile App Development Club Team Leader</li>
-		<li>USACS Board Member</li>
-		<li>Web Developer on Student Life Media Team</li>
-	</ul>
-	<br/>
-</div>
-
-<div id="assortedinterests">
-	<h3>Assorted Interests</h3>
-	<ul>
-		<li>Anime and Manga</li>
-		<li>NFL Football</li>
-		<li>NHL Hockey</li>
-		<li>Magic: The Gathering</li>
-		<li>Android OS</li>
-	</ul>
-	<br/>
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-<script src="./js/bootstrap.min.js" type="text/javascript"></script>
-</body>
-
-<footer>
-</footer>
-
+ <head>
+  <title>Eric Meadow</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <script src="./bower_components/platform/platform.js"></script>
+  <link rel="import" href="./bower_components/font-roboto/roboto.html">
+  <link rel="import" href="./bower_components/core-header-panel/core-header-panel.html">
+  <link rel="import" href="./bower_components/core-toolbar/core-toolbar.html">
+  <link rel="import" href="./bower_components/paper-tabs/paper-tabs.html">
+  <link rel="import" href="./bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="stylesheet" href="./css/styles.css">
+ </head>
+ 
+ <body unresolved touch-action="auto">
+  <core-header-panel flex mode="waterfall">
+   <core-toolbar>
+    <paper-tabs class="transparent-thrashers" valueattr="name" selected="home" style="max-width: 775px;" flex>
+     <paper-tab name="about"> About Me </paper-tab>
+     <paper-tab name="academics"> Academics </paper-tab>
+     <paper-tab name="projects"> Projects </paper-tab>
+     <paper-tab name="extras"> Extracirriculars </paper-tab>
+     <paper-tab name="email"> Email Me </paper-tab>
+    </paper-tabs>
+   </core-toolbar>
+   <div class="content">
+    <div id="eric" class="card">
+     <paper-shadow z="2">
+      <img src="./img/me.jpg">
+      </br>
+      <p><a href="https://dl.dropbox.com/u/16194318/Resume.pdf" target="_blank">Resume for download</a></p>
+      <p><a href="https://github.com/PalmerCurling" target="_blank">Check out Github for my projects here!</a></p>
+     </paper-shadow> 
+    </div>
+    
+    <br />
+    
+    <div id="tagline" class="card">
+     <paper-shadow z="5">Code under construction, because no job worth it is ever done.</paper-shadow>
+    </div>
+    
+    <br />
+    
+    <div id="about" class="card">
+     <paper-shadow z="2">
+      <p>Hockey fanatic.</p>
+      <p>Magic: The Gathering disciple.</p>
+      <p>Student of the World.</p>
+     </paper-shadow>
+    </div>
+    
+    <br />
+    
+    <div id="academics" class="card">
+     <paper-shadow z="2">
+      <h3>Academics</h3>
+      <p>Junior @ Rutgers University</p>
+      <p>ITI Major</p>
+      <p>CS + Philosophy Minor</p>
+     </paper-shadow>
+    </div>
+    
+    <br />
+    
+    <div id="extras" class="card">
+     <paper-shadow z="2">
+      <h3>Extracirriculars</h3>
+      <ul> <!--add links below-->
+       <li>RU Mobile App Development Club Team Leader</li>
+       <li>USACS Board Member</li>
+       <li>Student Life Media Team Web Developer/Internal IT support</li>
+       <li>Dell Field Support</li>
+      <ul>
+     </paper-shadow>
+    </div>
+    
+    
+    
+    
+    
+    
+   </div> <!--content stays within div-->
+  </core-header-panel>
+  
+  
+  <script>
+   var tabs = document.querySelector('paper-tabs');
+   tabs.addEventListener('core-select', function() {
+   	console.log ("Selected: "+ tabs.selected);
+   });
+  </script>
+ </body>
 </html>
